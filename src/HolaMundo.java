@@ -104,5 +104,28 @@ public class HolaMundo {
         System.out.println("numeroLong = " + numeroLong);
         System.out.println("valor minimo byte: " + Long.MIN_VALUE);
         System.out.println("Valor maximo byte: " + Long.MAX_VALUE);
+        
+        /*
+        Tipos primitivos flotantes:
+        float 32 bits, double 64 bits
+        */
+        float numeroFloat = 10.0F;//Por defecto, Java asigna flotantes como double
+        System.out.println("numeroFloat = " + numeroFloat);
+        System.out.println("Valor minimo tipo float: "+ Float.MIN_VALUE);
+        System.out.println("Valor maximo tipo float: "+ Float.MAX_VALUE);
+        
+        double numeroDouble = 10.0;//Por defecto, Java asigna flotantes como double
+        System.out.println("numeroDouble = " + numeroDouble);
+        System.out.println("Valor minimo tipo double: "+ Double.MIN_VALUE);
+        System.out.println("Valor maximo tipo double: "+ Double.MAX_VALUE);
+        
+        var numeroEntero = 10;//Por defecto quedan variables de tipo entero.
+        System.out.println("numeroEntero = " + numeroEntero);
+        
+        var numDouble = 10.0; //Asignacion varible tipo double
+        System.out.println("numDouble = " + numDouble);
+        
+        var numFloat = 10.0F;//Variable tipo float
+        System.out.println("numFloat = " + numFloat);
     }
 }
