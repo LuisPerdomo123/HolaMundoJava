@@ -76,5 +76,18 @@ public class HolaMundo {
         var titulo2 = consola.nextLine();
         System.out.println("Resultado = " + titulo2 + " "+ usuarioScanner);
 
+        
+        /*
+        Tipos primitivos que almacenan enteros:
+        byte 8 bits, short 16 bits, char 16 bots, int 32 bits, long 64 bits
+        CPU trabaja tipo 32 bits o 64 bits, por tanto no hay probabilidad que
+        se ahorre espacio
+        */
+        
+        byte numeroByte = (byte)10;
+        //conversión de valores. Se utiliza parentesis para cambio de valor
+        System.out.println("valor minimo byte: " + Byte.MIN_VALUE);
+        System.out.println("Valor maximo byte: " + Byte.MAX_VALUE);
+        
     }
 }
