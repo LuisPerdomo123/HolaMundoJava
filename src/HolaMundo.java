@@ -84,10 +84,25 @@ public class HolaMundo {
         se ahorre espacio
         */
         
-        byte numeroByte = (byte)10;
+        byte numeroByte = (byte)129;
         //conversión de valores. Se utiliza parentesis para cambio de valor
+        System.out.println("numeroByte = " + numeroByte);
         System.out.println("valor minimo byte: " + Byte.MIN_VALUE);
         System.out.println("Valor maximo byte: " + Byte.MAX_VALUE);
         
+        short numeroShort = (short)32768;
+        System.out.println("numeroShort = " + numeroShort);
+        System.out.println("valor minimo byte: " + Short.MIN_VALUE);
+        System.out.println("Valor maximo byte: " + Short.MAX_VALUE);
+        
+        int numeroInt = (int)2147483647L;//Conversion a valor tipo Long a entero, pero pierde presicion
+        System.out.println("numeroInt = " + numeroInt);
+        System.out.println("valor minimo byte: " + Integer.MIN_VALUE);
+        System.out.println("Valor maximo byte: " + Integer.MAX_VALUE);
+        
+        long numeroLong = (long)9223372036854775807D;
+        System.out.println("numeroLong = " + numeroLong);
+        System.out.println("valor minimo byte: " + Long.MIN_VALUE);
+        System.out.println("Valor maximo byte: " + Long.MAX_VALUE);
     }
 }
