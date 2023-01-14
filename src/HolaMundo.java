@@ -127,5 +127,37 @@ public class HolaMundo {
         
         var numFloat = 10.0F;//Variable tipo float
         System.out.println("numFloat = " + numFloat);
+        
+        /*
+        Tipos primitivo char
+        */
+        
+        char miCaracter = 'a';
+        System.out.println("miCaracter = " + miCaracter);
+        //Se rige por lista de caracter unicode
+        char varChar = '\u0021';
+        System.out.println("varChar = " + varChar);
+        
+        char varCharDecimal = 33;
+        System.out.println("varCharDecimal = " + varCharDecimal);
+        
+        char varCharSimbolo = '!';
+        System.out.println("varCharSimbolo = " + varCharSimbolo);
+        
+        //Ahora se utilizará la variable var. Se realiza una inferencia de tipo.
+        var varChar1 = '\u0021';
+        System.out.println("varChar1 = " + varChar1);
+        
+        var varCharDecimal2 = 33;//En este caso se crea una variable de tipo entero.
+        System.out.println("varCharDecimal2 = " + varCharDecimal2);
+        
+        var varCharSimbolo3 = '!';
+        System.out.println("varCharSimbolo3 = " + varCharSimbolo3);
+        
+        int variableEnteraSimbolo = '!';//Se convierte a su variable decimal
+        System.out.println("variableEnteraSimbolo = " + variableEnteraSimbolo);
+        
+        int letra = 'a';//Se convierte al valor decimal del caracter.
+        System.out.println("letra = " + letra);
     }
 }
