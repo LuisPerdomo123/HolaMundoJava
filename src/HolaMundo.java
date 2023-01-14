@@ -184,5 +184,22 @@ public class HolaMundo {
         
             System.out.println("Eres menor de edad");
         }
+        
+        /*
+        Conversiones de tipo primitivo
+        */
+        
+        //Conversion tipo string to int & string to douoble
+        var edad1 = Integer.parseInt("20");
+        System.out.println("edad1 = " + (edad1+1));
+        
+        var valorPI = Double.parseDouble("3.1416");
+        System.out.println("valorPI = " + valorPI);
+        
+        //Pedir un valor utililazndo clase scanner
+        var consola1 = new Scanner(System.in);
+        System.out.println("Proporciona tu edad: ");
+        edad1 = Integer.parseInt(consola1.nextLine());
+        System.out.println("Edad = " + edad1);
     }
 }
