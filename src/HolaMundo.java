@@ -159,5 +159,30 @@ public class HolaMundo {
         
         int letra = 'a';//Se convierte al valor decimal del caracter.
         System.out.println("letra = " + letra);
+        
+        /*
+        Tipos primitivos boolean
+        */
+        
+        boolean varBoolean = true;//Valores de tipo bandera
+        System.out.println("varBoolean = " + varBoolean);
+        
+        if(varBoolean==true)
+        {
+            System.out.println("La bandera es verdadera");
+        }else{
+            System.out.println("La bandera es falsa");
+        }
+        
+        //Desarrollo de algorimo para determianr edad
+        var edad = 30;
+        var esAdulto = edad >= 18;//Opcion para variable boolean
+        if(esAdulto){
+        
+            System.out.println("Eres mayor de edad");
+        }else{
+        
+            System.out.println("Eres menor de edad");
+        }
     }
 }
