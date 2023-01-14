@@ -201,5 +201,17 @@ public class HolaMundo {
         System.out.println("Proporciona tu edad: ");
         edad1 = Integer.parseInt(consola1.nextLine());
         System.out.println("Edad = " + edad1);
+        
+        //Conversio tipo int to string
+        
+       var edadTexto = String.valueOf(10);
+       System.out.println("edadTeaxto = " + edadTexto);
+        
+       var caracter = "Hola".charAt(2);
+        System.out.println("caracter = " + caracter);
+       
+        System.out.println("Proporciona un caracter: ");
+        caracter = consola1.nextLine().charAt(0);
+        System.out.println("caracter = " + caracter);
     }
 }
