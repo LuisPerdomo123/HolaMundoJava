@@ -92,18 +92,18 @@ public class HolaMundo {
         
         short numeroShort = (short)32768;
         System.out.println("numeroShort = " + numeroShort);
-        System.out.println("valor minimo byte: " + Short.MIN_VALUE);
-        System.out.println("Valor maximo byte: " + Short.MAX_VALUE);
+        System.out.println("valor minimo short: " + Short.MIN_VALUE);
+        System.out.println("Valor maximo short: " + Short.MAX_VALUE);
         
         int numeroInt = (int)2147483647L;//Conversion a valor tipo Long a entero, pero pierde presicion
         System.out.println("numeroInt = " + numeroInt);
-        System.out.println("valor minimo byte: " + Integer.MIN_VALUE);
-        System.out.println("Valor maximo byte: " + Integer.MAX_VALUE);
+        System.out.println("valor minimo int: " + Integer.MIN_VALUE);
+        System.out.println("Valor maximo int: " + Integer.MAX_VALUE);
         
         long numeroLong = (long)9223372036854775807D;
         System.out.println("numeroLong = " + numeroLong);
-        System.out.println("valor minimo byte: " + Long.MIN_VALUE);
-        System.out.println("Valor maximo byte: " + Long.MAX_VALUE);
+        System.out.println("valor minimo long: " + Long.MIN_VALUE);
+        System.out.println("Valor maximo long: " + Long.MAX_VALUE);
         
         /*
         Tipos primitivos flotantes:
@@ -213,5 +213,39 @@ public class HolaMundo {
         System.out.println("Proporciona un caracter: ");
         caracter = consola1.nextLine().charAt(0);
         System.out.println("caracter = " + caracter);
+        
+        /*
+        Operadores aritmeticos
+        */
+        
+        int a=40,b=2;
+        
+        var resultado = a+b;
+        System.out.println("resultado suma= " + resultado);
+        
+        resultado = a-b;
+        System.out.println("resultado resta= " + resultado);
+        
+        resultado = a*b;
+        System.out.println("resultado multiplicacion= " + resultado);
+        
+        resultado = a/b;//No incluye el punto flotante porque la variable resultado es de tipo entero
+        System.out.println("resultado division= " + resultado);
+        
+        var resultado2 = 3.0/b; //La variable resultado2 es asignada como fltoante
+        System.out.println("resultado2 division flotante= " + resultado2);
+        
+        resultado = a%b;//Residuo entero
+        System.out.println("resultado = " + resultado);
+        
+        //Determinar si la variable a es par o impar
+        
+        if(a%2 ==0){
+        
+            System.out.println("Es un numero par");
+        }else{
+        
+            System.out.println("Es un numero impar");
+        }
     }
 }
