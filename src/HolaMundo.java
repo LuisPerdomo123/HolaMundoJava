@@ -247,5 +247,25 @@ public class HolaMundo {
         
             System.out.println("Es un numero impar");
         }
+        
+        /*
+        Operadores de asignacion
+        */
+        
+        int c = a+5-b;//La evaluacion se realiza de izquierda a derecha
+        System.out.println("c = " + c);
+        
+        //Operador de composicion
+        a += 1;//a=a+1
+        System.out.println("a = " + a);
+        
+        a += 3;//a=a+3
+        System.out.println("a = " + a);
+    
+        a-=2;//a=a-2
+        System.out.println("a = " + a);
+        
+        // *=   /=  %=
+        
     }
 }
