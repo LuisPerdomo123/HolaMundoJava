@@ -314,5 +314,35 @@ public class HolaMundo {
         
         System.out.println("kk = " + kk);
         System.out.println("ll = " + ll);
+        
+        /*
+        Operador de igualdad y relaciones
+        */
+        
+        a = 3;
+        b = 2;
+        
+        //Operador de igualdad
+        
+        var cc = (a == b);//Parentesis es opcional
+        System.out.println("cc = " + cc);
+        
+        //Operador diferencia
+        var dd = a != b;
+        System.out.println("dd = " + dd);
+        
+        //Para trabajar con cadena tipo String
+        
+        var cadena11 = "Hola";
+        var cadena12 = "Adios";
+        
+        var cadeEva = cadena11 == cadena12;//No esta comparando el contenido sino la referencia de memoria del objeto
+        System.out.println("cadeEva = " + cadeEva);
+        
+        var cadeF = cadena12.equals(cadena11);//Se esta evaluando el contenido de cadenas
+        System.out.println("cadeF = " + cadeF);
+        
+        
+        
     }
 }
