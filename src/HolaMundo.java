@@ -267,5 +267,52 @@ public class HolaMundo {
         
         // *=   /=  %=
         
+        /*
+        Operadores unarios
+        */
+        
+        var e = 3;
+        var f = -e;//Operador cambio de signo
+        
+        System.out.println("e = " + e);
+        System.out.println("f = " + f);
+        
+        var g = true;
+        var h = !g;//Inversion de la variable h
+        
+        System.out.println("g = " + g);
+        System.out.println("h = " + h);
+        
+        //Incremento
+        //1. pre incremento (simbolo antes de la variable)
+        
+        var ee = 3;
+        var ff = ++ee;//Primero se incrementa la variable y despues se usa su valor
+        
+        System.out.println("ee = " + ee);
+        System.out.println("ff = " + ff);
+        
+        //2. Postincremento (simbolo despues de la variable)
+        
+        var gg = 5;
+        var hh = gg++;//primero se utiliza el valor y despues se incrementa
+        
+        System.out.println("gg = " + gg);//Tenemos pendiente un incremento
+        System.out.println("hh = " + hh);
+        
+        //decremento
+        //1. Predecremento
+        var ii = 2;
+        var jj = --ii;
+        
+        System.out.println("ii = " + ii);//Ya esta decrementada
+        System.out.println("jj = " + jj);
+        
+        //2. Postdecremento
+        var kk = 4;
+        var ll = kk --;//Primero se usa el valor de la variable y queda pendiente decremento
+        
+        System.out.println("kk = " + kk);
+        System.out.println("ll = " + ll);
     }
 }
