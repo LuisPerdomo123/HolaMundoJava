@@ -383,5 +383,18 @@ public class HolaMundo {
             System.out.println("El padre esta ocupado");
         }
         
+        
+        /*
+        Operador ternario
+        */
+        //Se utiliza como una estructura simplificada de if else
+        //Se debe utilizar en estructuras sencillas
+        var resultado13 = (3>2) ? "Verdadero" : "Falso";
+        System.out.println("resultado13 = " + resultado13);
+        
+        var numero13 = 8;
+        resultado13 = (numero13 % 2 == 0) ? "numero par" : "numero impar";
+        System.out.println("resultado13 = " + resultado13);
+        
     }
 }
