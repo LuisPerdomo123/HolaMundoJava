@@ -350,5 +350,38 @@ public class HolaMundo {
             System.out.println("Es menor de edad");
         }
         
+        
+        /*
+        Operadores condicionales
+        */
+        
+        a = 10;
+        var valorMinimo = 0;
+        var valorMaximo = 10;
+        
+        var resultado12 = a >= 0 && a <= 10;//Operador AND
+        
+        if(resultado12){//Esta expresion se asume verdadera
+        
+            System.out.println("Dentro de rango");
+        }else{
+        
+            System.out.println("Fuera de rango");
+        }
+        
+        
+        //Ejemplo de operador OR. Un padre puede asistir al juego de su hijo
+        
+        var vacaciones = false;
+        var diaDescanso = false;
+        
+        if(vacaciones || diaDescanso){//Esta expresion se toma como verdadera. Operador OR
+        
+            System.out.println("Padre puede asistir al juego del hijo");
+        }else{
+        
+            System.out.println("El padre esta ocupado");
+        }
+        
     }
 }
