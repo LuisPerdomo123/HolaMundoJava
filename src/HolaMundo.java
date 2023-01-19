@@ -396,5 +396,28 @@ public class HolaMundo {
         resultado13 = (numero13 % 2 == 0) ? "numero par" : "numero impar";
         System.out.println("resultado13 = " + resultado13);
         
+        
+        /*
+        Precedencia de operadores
+        Orden en que se evaluaran los operadores
+        */
+        
+        var x = 5;
+        var y = 10;
+        var z = ++x + y--;//Preincrementa x y postdecrementa y. Solo hasta la proxima vez que se utilice y se vera el cambio
+        
+        System.out.println("x = " + x);
+        System.out.println("y = " + y);
+        System.out.println("z = " + z);
+        
+        
+        var resultado14 = 4 + 5 * 6 / 3;//Se evalua de izquierda a derecha. Prioridad *,/,+,-
+        //4 + ((5*6)/3)=14. Esta ejecucion igual el uso de parentesis
+        System.out.println("resultado14 = " + resultado14);
+        
+        //Modificacion de resultado con parentesis
+        
+        resultado14 = (4+5)*6/3;//Tiene mayor prioridad el parentesis
+        System.out.println("resultado14 = " + resultado14);
     }
 }
