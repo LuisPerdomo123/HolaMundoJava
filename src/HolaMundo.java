@@ -336,102 +336,114 @@ public class HolaMundo {
 
             System.out.println("Es numero impar");
         }
-        
+
         //Ejercicio mayor de edad
-        
         var edad11 = 10;
         var adulto = 18;
-        
-        if(edad11 >= adulto){
-        
+
+        if (edad11 >= adulto) {
+
             System.out.println("Es adulto");
-        }else{
-        
+        } else {
+
             System.out.println("Es menor de edad");
         }
-        
-        
+
         /*
         Operadores condicionales
-        */
-        
+         */
         a = 10;
         var valorMinimo = 0;
         var valorMaximo = 10;
-        
+
         var resultado12 = a >= 0 && a <= 10;//Operador AND
-        
-        if(resultado12){//Esta expresion se asume verdadera
-        
+
+        if (resultado12) {//Esta expresion se asume verdadera
+
             System.out.println("Dentro de rango");
-        }else{
-        
+        } else {
+
             System.out.println("Fuera de rango");
         }
-        
-        
+
         //Ejemplo de operador OR. Un padre puede asistir al juego de su hijo
-        
         var vacaciones = false;
         var diaDescanso = false;
-        
-        if(vacaciones || diaDescanso){//Esta expresion se toma como verdadera. Operador OR
-        
+
+        if (vacaciones || diaDescanso) {//Esta expresion se toma como verdadera. Operador OR
+
             System.out.println("Padre puede asistir al juego del hijo");
-        }else{
-        
+        } else {
+
             System.out.println("El padre esta ocupado");
         }
-        
-        
+
         /*
         Operador ternario
-        */
+         */
         //Se utiliza como una estructura simplificada de if else
         //Se debe utilizar en estructuras sencillas
-        var resultado13 = (3>2) ? "Verdadero" : "Falso";
+        var resultado13 = (3 > 2) ? "Verdadero" : "Falso";
         System.out.println("resultado13 = " + resultado13);
-        
+
         var numero13 = 8;
         resultado13 = (numero13 % 2 == 0) ? "numero par" : "numero impar";
         System.out.println("resultado13 = " + resultado13);
-        
-        
+
         /*
         Precedencia de operadores
         Orden en que se evaluaran los operadores
-        */
-        
+         */
         var x = 5;
         var y = 10;
         var z = ++x + y--;//Preincrementa x y postdecrementa y. Solo hasta la proxima vez que se utilice y se vera el cambio
-        
+
         System.out.println("x = " + x);
         System.out.println("y = " + y);
         System.out.println("z = " + z);
-        
-        
+
         var resultado14 = 4 + 5 * 6 / 3;//Se evalua de izquierda a derecha. Prioridad *,/,+,-
         //4 + ((5*6)/3)=14. Esta ejecucion igual el uso de parentesis
         System.out.println("resultado14 = " + resultado14);
-        
+
         //Modificacion de resultado con parentesis
-        
-        resultado14 = (4+5)*6/3;//Tiene mayor prioridad el parentesis
+        resultado14 = (4 + 5) * 6 / 3;//Tiene mayor prioridad el parentesis
         System.out.println("resultado14 = " + resultado14);
-        
+
         /*
         Sentencia de control if else
-        */
-        
+         */
         var condicion = true;
-        
-        if(condicion){
-        
+
+        if (condicion) {
+
             System.out.println("Condicion verdadera");
-        }else{
-        
+        } else {
+
             System.out.println("Condicion falsa");
         }
+
+        //ejercicio para convertir un numero a texto
+        var numero = 2;
+        var numeroTexto = "Numero desconocido";
+
+        if (numero == 1) {
+
+            numeroTexto = "Numero uno";
+        } else if (numero == 2) {
+
+            numeroTexto = "Numero dos";
+        } else if (numero == 3) {
+
+            numeroTexto = "Numero tres";
+        } else if (numero == 4) {
+
+            numeroTexto = "Numero cuatro";
+        } else {
+
+            numeroTexto = "Numero no encontrado";
+        }
+
+        System.out.println("numeroTexto = " + numeroTexto);
     }
 }
