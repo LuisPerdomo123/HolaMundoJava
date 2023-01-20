@@ -463,6 +463,37 @@ public class HolaMundo {
             estacion = "Otonio";
         }
         System.out.println("estacion = " + estacion);
+        
+        /*
+        Sentencia de control switch
+        son utilizados en tipo menu
+        */
+        
+        //Ejercicio de conversion numero a texto
+        
+        numero = 2;
+        numeroTexto = "Valor desconocido";
+        
+        switch(numero){
+        
+            case 1:
+                numeroTexto = "Numero uno";
+                break;
+            case 2:
+                numeroTexto = "Numero dos";
+                break;
+            case 3:
+                numeroTexto = "Numero tres";
+                break;
+            case 4:
+                numeroTexto = "Numero cuatro";
+                break;
+            default:
+                numeroTexto = "Caso no encontrado";
+        }
+        
+        System.out.println("numeroTexto = " + numeroTexto);
+        
 
     }
 }
