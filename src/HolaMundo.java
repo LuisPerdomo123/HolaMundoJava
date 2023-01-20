@@ -419,5 +419,19 @@ public class HolaMundo {
         
         resultado14 = (4+5)*6/3;//Tiene mayor prioridad el parentesis
         System.out.println("resultado14 = " + resultado14);
+        
+        /*
+        Sentencia de control if else
+        */
+        
+        var condicion = true;
+        
+        if(condicion){
+        
+            System.out.println("Condicion verdadera");
+        }else{
+        
+            System.out.println("Condicion falsa");
+        }
     }
 }
