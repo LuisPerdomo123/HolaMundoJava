@@ -58,7 +58,7 @@ public class HolaMundo {
         System.out.println(usuario + (i + j));//Priemro se realiza la suma y luego concatena
 
         //Caracteres especiales
-        var nombre = "Lizeth";//Ingreso de codigo duro
+        var nombre = "Luis E";//Ingreso de codigo duro
 
         System.out.println("Nueva linea: \n" + nombre);//Salto de linea
         System.out.println("Tabulador: \t" + nombre);//Ingresa tabulador
@@ -521,6 +521,38 @@ public class HolaMundo {
 
         }
         System.out.println("estacion = " + estacion);
+        
+        /*
+        Estructuracion de ciclos
+        Repeticion de lineas de codigo
+        */
+        
+        //Ciclo While
+        
+        var contador = 0;
+        
+        while(contador < 3){//Se tiene un contador
+        
+            System.out.println("contador = " + contador);
+            contador++;
+        }
+        
+        //Ciclo Do While
+        
+        contador = 0;
+        
+        do{
+        
+            System.out.println("contador = " + contador);
+            contador++;
+        }while(contador < 3);
 
+        
+        //Ciclo for
+        for(var contador1 = 0;contador1 < 3;contador1++){
+        
+            System.out.println("contador1 = " + contador1);
+        }
+        
     }
 }
