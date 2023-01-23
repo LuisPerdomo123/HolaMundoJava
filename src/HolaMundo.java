@@ -547,5 +547,12 @@ public class HolaMundo {
             contador++;
         }while(contador < 3);
 
+        
+        //Ciclo for
+        for(var contador1 = 0;contador1 < 3;contador1++){
+        
+            System.out.println("contador1 = " + contador1);
+        }
+        
     }
 }
