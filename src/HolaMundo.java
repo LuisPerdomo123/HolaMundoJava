@@ -556,10 +556,11 @@ public class HolaMundo {
         for (var contador1 = 0; contador1 < 3; contador1++) {
 
             if (contador1 % 2 != 0) {
-                
-               continue;//Pasar a la siguiente iteracion
+
+                continue;//Pasar a la siguiente iteracion
             }
             System.out.println("contador1 = " + contador1);
         }
+
     }
 }
