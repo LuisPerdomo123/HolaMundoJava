@@ -521,38 +521,45 @@ public class HolaMundo {
 
         }
         System.out.println("estacion = " + estacion);
-        
+
         /*
         Estructuracion de ciclos
         Repeticion de lineas de codigo
-        */
-        
+         */
         //Ciclo While
-        
         var contador = 0;
-        
-        while(contador < 3){//Se tiene un contador
-        
+
+        while (contador < 3) {//Se tiene un contador
+
             System.out.println("contador = " + contador);
             contador++;
         }
-        
+
         //Ciclo Do While
-        
         contador = 0;
-        
-        do{
-        
+
+        do {
+
             System.out.println("contador = " + contador);
             contador++;
-        }while(contador < 3);
+        } while (contador < 3);
 
-        
         //Ciclo for
-        for(var contador1 = 0;contador1 < 3;contador1++){
-        
+        for (var contador1 = 0; contador1 < 3; contador1++) {
+
+            if (contador1 % 2 == 0) {
+                System.out.println("contador1 = " + contador1);
+                break;//Al incluir el brak, solo se imprime el primer numero par
+            }
+        }
+
+        for (var contador1 = 0; contador1 < 3; contador1++) {
+
+            if (contador1 % 2 != 0) {
+                
+               continue;//Pasar a la siguiente iteracion
+            }
             System.out.println("contador1 = " + contador1);
         }
-        
     }
 }
