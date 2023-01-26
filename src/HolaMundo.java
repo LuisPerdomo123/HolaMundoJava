@@ -561,6 +561,9 @@ public class HolaMundo {
             }
             System.out.println("contador1 = " + contador1);
         }
+        
+        //Seria importante hacer el primer pull
+        System.out.println("Realizando el primer pull");
 
     }
 }
