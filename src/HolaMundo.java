@@ -564,6 +564,7 @@ public class HolaMundo {
         
         //Seria importante hacer el primer y segundo pull
         System.out.println("Realizando el primer y segundo pull");
+        System.out.println("Es aceptada la revision");
 
     }
 }
