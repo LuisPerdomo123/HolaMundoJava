@@ -561,12 +561,6 @@ public class HolaMundo {
             }
             System.out.println("contador1 = " + contador1);
         }
-        
-        //Seria importante hacer el primer y segundo pull
-        System.out.println("Realizando el primer y segundo pull");
-        System.out.println("Es aceptada la revision");
-        System.out.println("Es aceptada la revision");
-
 
     }
 }
